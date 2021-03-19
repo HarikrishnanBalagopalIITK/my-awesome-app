@@ -2,6 +2,7 @@
 
 
 def greeting():
+    """greeting returns a nice message"""
     return "hello there!"
 
 
