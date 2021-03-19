@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 
 
-def greeting():
+def greeting(name):
     """greeting returns a nice message"""
-    return "hello there!"
+    return f"Hello {name}!"
 
 
 def main():
     """main is the entry point of the app"""
-    print(greeting())
+    name = input("What is your name?\n")
+    print(greeting(name))
 
 
 main()
