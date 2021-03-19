@@ -6,4 +6,9 @@ def greeting():
     return "hello there!"
 
 
-print(greeting())
+def main():
+    """main is the entry point of the app"""
+    print(greeting())
+
+
+main()
