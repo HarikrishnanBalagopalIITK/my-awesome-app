@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 
-def greeting(name):
-    """greeting returns a nice message"""
-    return f"Hello {name}!"
+from utils import greeting
 
 
 def main():
